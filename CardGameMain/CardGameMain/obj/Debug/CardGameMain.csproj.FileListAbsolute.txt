@@ -1,0 +1,7 @@
+C:\Users\Nik\Documents\_programming_c#\games\CardGameMain\CardGameMain\bin\Debug\CardGameMain.exe.config
+C:\Users\Nik\Documents\_programming_c#\games\CardGameMain\CardGameMain\bin\Debug\CardGameMain.exe
+C:\Users\Nik\Documents\_programming_c#\games\CardGameMain\CardGameMain\bin\Debug\CardGameMain.pdb
+C:\Users\Nik\Documents\_programming_c#\games\CardGameMain\CardGameMain\obj\Debug\CardGameMain.csprojAssemblyReference.cache
+C:\Users\Nik\Documents\_programming_c#\games\CardGameMain\CardGameMain\obj\Debug\CardGameMain.csproj.CoreCompileInputs.cache
+C:\Users\Nik\Documents\_programming_c#\games\CardGameMain\CardGameMain\obj\Debug\CardGameMain.exe
+C:\Users\Nik\Documents\_programming_c#\games\CardGameMain\CardGameMain\obj\Debug\CardGameMain.pdb

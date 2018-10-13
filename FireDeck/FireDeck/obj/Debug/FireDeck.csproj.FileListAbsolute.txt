@@ -1,0 +1,14 @@
+c:\users\user\source\repos\FireDeck\FireDeck\bin\Debug\FireDeck.exe.config
+c:\users\user\source\repos\FireDeck\FireDeck\bin\Debug\FireDeck.exe
+c:\users\user\source\repos\FireDeck\FireDeck\bin\Debug\FireDeck.pdb
+c:\users\user\source\repos\FireDeck\FireDeck\obj\Debug\FireDeck.csprojAssemblyReference.cache
+c:\users\user\source\repos\FireDeck\FireDeck\obj\Debug\FireDeck.csproj.CoreCompileInputs.cache
+c:\users\user\source\repos\FireDeck\FireDeck\obj\Debug\FireDeck.exe
+c:\users\user\source\repos\FireDeck\FireDeck\obj\Debug\FireDeck.pdb
+C:\Users\Nik\Documents\_programming_c#\games\FireDeck\FireDeck\bin\Debug\FireDeck.exe.config
+C:\Users\Nik\Documents\_programming_c#\games\FireDeck\FireDeck\bin\Debug\FireDeck.exe
+C:\Users\Nik\Documents\_programming_c#\games\FireDeck\FireDeck\bin\Debug\FireDeck.pdb
+C:\Users\Nik\Documents\_programming_c#\games\FireDeck\FireDeck\obj\Debug\FireDeck.csprojAssemblyReference.cache
+C:\Users\Nik\Documents\_programming_c#\games\FireDeck\FireDeck\obj\Debug\FireDeck.csproj.CoreCompileInputs.cache
+C:\Users\Nik\Documents\_programming_c#\games\FireDeck\FireDeck\obj\Debug\FireDeck.exe
+C:\Users\Nik\Documents\_programming_c#\games\FireDeck\FireDeck\obj\Debug\FireDeck.pdb

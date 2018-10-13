@@ -1,0 +1,7 @@
+C:\Users\Nik\Documents\_programming_c#\games\TownRPG2\TownRPG2\bin\Debug\TownRPG2.exe.config
+C:\Users\Nik\Documents\_programming_c#\games\TownRPG2\TownRPG2\bin\Debug\TownRPG2.exe
+C:\Users\Nik\Documents\_programming_c#\games\TownRPG2\TownRPG2\bin\Debug\TownRPG2.pdb
+C:\Users\Nik\Documents\_programming_c#\games\TownRPG2\TownRPG2\obj\Debug\TownRPG2.csprojAssemblyReference.cache
+C:\Users\Nik\Documents\_programming_c#\games\TownRPG2\TownRPG2\obj\Debug\TownRPG2.csproj.CoreCompileInputs.cache
+C:\Users\Nik\Documents\_programming_c#\games\TownRPG2\TownRPG2\obj\Debug\TownRPG2.exe
+C:\Users\Nik\Documents\_programming_c#\games\TownRPG2\TownRPG2\obj\Debug\TownRPG2.pdb

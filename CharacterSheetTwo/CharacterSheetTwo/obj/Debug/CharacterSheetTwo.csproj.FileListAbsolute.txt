@@ -1,0 +1,7 @@
+C:\Users\Nik\Documents\_programming_c#\games\CharacterSheetTwo\CharacterSheetTwo\bin\Debug\CharacterSheetTwo.exe.config
+C:\Users\Nik\Documents\_programming_c#\games\CharacterSheetTwo\CharacterSheetTwo\bin\Debug\CharacterSheetTwo.exe
+C:\Users\Nik\Documents\_programming_c#\games\CharacterSheetTwo\CharacterSheetTwo\bin\Debug\CharacterSheetTwo.pdb
+C:\Users\Nik\Documents\_programming_c#\games\CharacterSheetTwo\CharacterSheetTwo\obj\Debug\CharacterSheetTwo.csprojAssemblyReference.cache
+C:\Users\Nik\Documents\_programming_c#\games\CharacterSheetTwo\CharacterSheetTwo\obj\Debug\CharacterSheetTwo.csproj.CoreCompileInputs.cache
+C:\Users\Nik\Documents\_programming_c#\games\CharacterSheetTwo\CharacterSheetTwo\obj\Debug\CharacterSheetTwo.exe
+C:\Users\Nik\Documents\_programming_c#\games\CharacterSheetTwo\CharacterSheetTwo\obj\Debug\CharacterSheetTwo.pdb

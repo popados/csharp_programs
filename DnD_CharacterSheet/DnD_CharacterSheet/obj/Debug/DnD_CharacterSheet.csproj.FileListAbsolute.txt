@@ -1,0 +1,7 @@
+C:\Users\Nik\Documents\_programming_c#\games\DnD_CharacterSheet\DnD_CharacterSheet\bin\Debug\DnD_CharacterSheet.exe.config
+C:\Users\Nik\Documents\_programming_c#\games\DnD_CharacterSheet\DnD_CharacterSheet\bin\Debug\DnD_CharacterSheet.exe
+C:\Users\Nik\Documents\_programming_c#\games\DnD_CharacterSheet\DnD_CharacterSheet\bin\Debug\DnD_CharacterSheet.pdb
+C:\Users\Nik\Documents\_programming_c#\games\DnD_CharacterSheet\DnD_CharacterSheet\obj\Debug\DnD_CharacterSheet.csprojAssemblyReference.cache
+C:\Users\Nik\Documents\_programming_c#\games\DnD_CharacterSheet\DnD_CharacterSheet\obj\Debug\DnD_CharacterSheet.csproj.CoreCompileInputs.cache
+C:\Users\Nik\Documents\_programming_c#\games\DnD_CharacterSheet\DnD_CharacterSheet\obj\Debug\DnD_CharacterSheet.exe
+C:\Users\Nik\Documents\_programming_c#\games\DnD_CharacterSheet\DnD_CharacterSheet\obj\Debug\DnD_CharacterSheet.pdb
