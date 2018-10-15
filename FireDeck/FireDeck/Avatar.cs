@@ -20,7 +20,7 @@ namespace FireDeck
             ManaCount = 5;
         }
         public void PrintStats() {
-            Console.WriteLine("Name: " + Name + "\n Health: " + Health);
+            Console.WriteLine("Name: " + Name + " Health: " + Health);
             Console.ReadKey();
         }
     }

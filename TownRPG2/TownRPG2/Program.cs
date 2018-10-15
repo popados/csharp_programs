@@ -4,6 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+//~~~~~~~~WHAT IS DONE NOW~~~~~~~//
+//-Story Intro
+//-Create Hero
+//-Create Goblin
+//-Fight
+//~~~~~~~~NEXT TO DO TO END PHASE~~~~~~~//
+//-Loop creation of goblin
+//-Fight until hero HP is down
+//-Add level per killed counter
+//-Hero dead: display end stats(killed, floors cleared, etc)
+
 namespace TownRPG2
 {
     class Program
@@ -14,15 +26,12 @@ namespace TownRPG2
             CreateMainStory();
 
             //create hero and ask player for name(doing this outside a function for now)
-            Console.WriteLine("Please Enter Hero name.");
-            string _name = Console.ReadLine();
-            Hero hero = new Hero(_name);
-            hero.PrintStats();
-
+            Hero hero = Tower.CreateHero();
+            //create goblin
             var gob = Tower.CreateGoblin();
 
             gob.PrintStats();
-
+            //when goblin dead send to list?
             Tower.Battle.Fight(hero, gob);
 
 
@@ -30,16 +39,13 @@ namespace TownRPG2
             //Goblin goblin = new Goblin();
             //goblin.PrintStats();
 
-            //
-            //next steps-
-            //player object meets goblins object
-            //create a battle phase that asks for player input then gives goblin a respond turn
-            //check if player or goblin is dead
-            //add to counter
-            //end screen
-            
+
+
 
         }
+
+
+
         public static void CreateMainStory()
         {
             Console.WriteLine("    |<--- Climb The Tower! --->|");
@@ -68,7 +74,6 @@ namespace TownRPG2
 
 
 
-
 //
 //tower rpg to test my own story and ideas
 //idea is a town at the bottom of a tower
@@ -90,3 +95,12 @@ namespace TownRPG2
 //opening of the game and creation of first user input//THIS REMAKE MIGHT PROVE I CAN DO THIS BETTER!
 //i think im misunderstanding something here
 //i want to create the hero object then give it a name but it wont update the property
+
+//
+//next steps-
+//player object meets goblins object//DONE-Tower.Battle.Fight
+//create a battle phase that asks for player input//DONE
+//Give goblin response turn //
+//check if player or goblin is dead // DONE
+//add to counter
+//end screen

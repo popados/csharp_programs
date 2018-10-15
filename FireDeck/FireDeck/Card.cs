@@ -8,7 +8,7 @@ namespace FireDeck
 {
     class Card
     {
-        //variables for creature card
+        //variables for cards
         private string CardName { get; set; }
         private string CardDescription { get; set; }
         private string AbilityDescription { get; set; }
@@ -16,7 +16,7 @@ namespace FireDeck
         private int Attack { get; set; }
         private int Health { get; set; }
         private int Cost { get; set; }
-
+        private bool isDead { get; set; }
 
 
         //constructor // maybe use this with arguments to change values of each card
@@ -30,6 +30,7 @@ namespace FireDeck
             Attack = 0;
             Health = 0;
             Cost = 0;
+            isDead = false;
         }
 
 
