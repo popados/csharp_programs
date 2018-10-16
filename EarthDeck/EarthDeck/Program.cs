@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WaterDeck
+namespace EarthDeck
 {
     //
     //Objects needed for TCG Battle System:
@@ -32,13 +32,13 @@ namespace WaterDeck
                 //now I need to to shuffle the deck
 
 
-                new Mino(), new Mino(), new Mino(),
-                new LittleSerpent(), new LittleSerpent(), new LittleSerpent(),
-                new SpiritOWater(), new SpiritOWater(), new SpiritOWater(),
-                new WaterDragon(), new WaterDragon(), new WaterDragon(),
-                new Crash(), new Crash(), new Crash(),
-                new EyeOfTheStorm(), new EyeOfTheStorm(), new EyeOfTheStorm(),
-                new Maelstrom(), new Maelstrom(), new Maelstrom() };
+                new ArmoredToad(), new ArmoredToad(), new ArmoredToad(),
+                new LittleHatchling(), new LittleHatchling(), new LittleHatchling(),
+                new SpiritOfEarth(), new SpiritOfEarth(), new SpiritOfEarth(),
+                new TortoiseChief(), new TortoiseChief(), new TortoiseChief(),
+                new Quake(), new Quake(), new Quake(),
+                new TortoiseShell(), new TortoiseShell(), new TortoiseShell(),
+                new SwampArmy(), new SwampArmy(), new SwampArmy() };
 
             foreach (var card in deck)
             {
