@@ -6,21 +6,23 @@ using System.Threading.Tasks;
 
 namespace FireDeck
 {
+    //this is created as certain cards respectively to card object and using constructors to make a method that fills the properties
     class Card
     {
         //variables for cards
-        private string CardName { get; set; }
-        private string CardDescription { get; set; }
-        private string AbilityDescription { get; set; }
-        private string CardType { get; set; }
-        private int Attack { get; set; }
-        private int Health { get; set; }
-        private int Cost { get; set; }
-        private bool isDead { get; set; }
+        public string CardName { get; set; }
+        public string CardDescription { get; set; }
+        public string AbilityDescription { get; set; }
+        public string CardType { get; set; }
+        public int Attack { get; set; }
+        public int Health { get; set; }
+        public int Cost { get; set; }
+        public bool isDead { get; set; }
 
 
         //constructor // maybe use this with arguments to change values of each card
-        public Card(){
+        public Card()
+        {
 
             //change these to new variables that get privates and set public for main class
             CardName = "Card Name";
@@ -32,9 +34,20 @@ namespace FireDeck
             Cost = 0;
             isDead = false;
         }
-
-
-        public class ImpCard : Card {
+        public void Print()
+        {
+            Console.WriteLine("Card: " + CardName +
+                "\n Description: " + CardDescription +
+                "\n Ability: " + AbilityDescription +
+                "\n Type: " + CardType +
+                "\n Attack: " + Attack +
+                "\n Health: " + Health +
+                "\n Cost: " + Cost);
+            Console.WriteLine();
+            Console.ReadKey();
+        }
+        public class ImpCard : Card
+        {
             public ImpCard()
             {
                 CardName = "Imp";
@@ -46,7 +59,8 @@ namespace FireDeck
                 Cost = 1;
             }
         }
-        public class LittleDraco : Card {
+        public class LittleDraco : Card
+        {
             public LittleDraco()
             {
                 CardName = "Little Draco";
@@ -59,9 +73,11 @@ namespace FireDeck
             }
         }
         //spirit of fire card
-        public class SpiritOFire : Card {
+        public class SpiritOFire : Card
+        {
 
-            public SpiritOFire() {
+            public SpiritOFire()
+            {
                 CardName = "Spirit Of Fire";
                 CardDescription = "Its the spirit of da fire, mon.";
                 AbilityDescription = "N/A";
@@ -72,9 +88,11 @@ namespace FireDeck
             }
         }
         //class for fire drake card
-        public class FireDrake : Card {
+        public class FireDrake : Card
+        {
             //constructor
-            public FireDrake() {
+            public FireDrake()
+            {
                 CardName = "Fire Drake";
                 CardDescription = "Big Big Dragon.";
                 AbilityDescription = "+1/+1 for each Little Draco in play.";
@@ -84,8 +102,10 @@ namespace FireDeck
                 Cost = 3;
             }
         }
-        public class FireBall : Card {
-            public FireBall() {
+        public class FireBall : Card
+        {
+            public FireBall()
+            {
                 CardName = "Fireball";
                 CardDescription = "Fire in your face.";
                 AbilityDescription = "Deal 1 damage to target creature/commander.";
@@ -96,8 +116,10 @@ namespace FireDeck
             }
 
         }
-        public class FlameStrike : Card {
-            public FlameStrike() {
+        public class FlameStrike : Card
+        {
+            public FlameStrike()
+            {
                 CardName = "Flamestrike";
                 CardDescription = "Fire strikes the earth.";
                 AbilityDescription = "1 Damage to three creatures.";
@@ -107,8 +129,10 @@ namespace FireDeck
                 Cost = 2;
             }
         }
-        public class WildFire : Card {
-            public WildFire() {
+        public class WildFire : Card
+        {
+            public WildFire()
+            {
                 CardName = "Wildfire";
                 CardDescription = "Uncontrollable flames.";
                 AbilityDescription = "Deal 2 damage to all creatures and commanders.";
@@ -119,22 +143,5 @@ namespace FireDeck
             }
 
         }
-
-        public void Print()
-        {
-            Console.WriteLine("Card: " + CardName + 
-                "\n Description: " + CardDescription +
-                "\n Ability: " + AbilityDescription + 
-                "\n Type: " + CardType + 
-                "\n Attack: " + Attack +
-                "\n Health: " + Health +
-                "\n Cost: " + Cost);
-            Console.WriteLine();
-            Console.ReadKey();
-        }
-        public void attackEnemy(Avatar target) {
-            target.Health -= Attack;
-        }
-
     }
 }

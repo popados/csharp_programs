@@ -58,6 +58,7 @@ namespace FireDeck
             Card card7 = new Card.FlameStrike();
             PlayerSelection();
 
+
             void PlayerSelection() {
                 Console.WriteLine("1. Show cards");
                 Console.WriteLine("2. Show Enemy Health");
@@ -117,28 +118,28 @@ namespace FireDeck
                 {
                     case 1:
                         card1.Print();
-                        card1.attackEnemy(enemyGod);
+                        //card1.attackEnemy(enemyGod);
                         Console.WriteLine("health remaining: " + enemyGod.Health);
                         Console.ReadKey();
                         DisplayCards(); 
                         break;
                     case 2:
                         card2.Print();
-                        card2.attackEnemy(enemyGod);
+                        //card2.attackEnemy(enemyGod);
                         Console.WriteLine("health remaining: " + enemyGod.Health);
                         Console.ReadKey();
                         DisplayCards();
                         break;
                     case 3:
                         card3.Print();
-                        card3.attackEnemy(enemyGod);
+                        //card3.attackEnemy(enemyGod);
                         Console.WriteLine("health remaining: " + enemyGod.Health);
                         Console.ReadKey();
                         DisplayCards();
                         break;
                     case 5:
                         card5.Print();
-                        card5.attackEnemy(enemyGod);
+                        //card5.attackEnemy(enemyGod);
                         Console.WriteLine("health remaining: " + enemyGod.Health);
                         Console.ReadKey();
                         DisplayCards();
